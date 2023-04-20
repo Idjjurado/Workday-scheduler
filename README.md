@@ -26,11 +26,13 @@ MIT License (see repo)
 GIVEN I am using a daily planner to create a schedule
 - WHEN I open the planner
     - THEN the current day is displayed at the top of the calendar   
-    - currentdateheader.png
+    - <picture> <source media="(prefers-color-scheme: dark)" srcset="https://github.com/Idjjurado/Workday-scheduler/blob/main/assets/imgs/currentdateheader.png"> <source media="(prefers-color-scheme: light)" srcset="https://github.com/Idjjurado/Workday-scheduler/blob/main/assets/imgs/currentdateheader.png"> <img alt="juuzou" src="https://github.com/Idjjurado/Workday-scheduler/blob/main/assets/imgs/currentdateheader.png"> </picture>
 - WHEN I scroll down
     - THEN I am presented with time blocks for standard business hours
+    - <picture> <source media="(prefers-color-scheme: dark)" srcset="https://github.com/Idjjurado/Workday-scheduler/blob/main/assets/imgs/timeblocks.png"> <source media="(prefers-color-scheme: light)" srcset="https://github.com/Idjjurado/Workday-scheduler/blob/main/assets/imgs/timeblocks.png"> <img alt="juuzou" src="https://github.com/Idjjurado/Workday-scheduler/blob/main/assets/imgs/timeblocks.png"> </picture>
 - WHEN I view the time blocks for that day
     - THEN each time block is color-coded to indicate whether it is in the past, present, or future
+    - <picture> <source media="(prefers-color-scheme: dark)" srcset="https://github.com/Idjjurado/Workday-https://github.com/Idjjurado/Workday-scheduler/blob/main/assets/imgs/color%20codes.png"> <source media="(prefers-color-scheme: light)" srcset="https://github.com/Idjjurado/Workday-https://github.com/Idjjurado/Workday-scheduler/blob/main/assets/imgs/color%20codes.png"> <img alt="juuzou" src="https://github.com/Idjjurado/Workday-https://github.com/Idjjurado/Workday-scheduler/blob/main/assets/imgs/color%20codes.png"> </picture>
 - WHEN I click into a time block
     - THEN I can enter an event
 - WHEN I click the save button for that time block
